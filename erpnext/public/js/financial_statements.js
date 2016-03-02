@@ -30,12 +30,7 @@ erpnext.financial_statements = {
 			],
 			"default": "Yearly",
 			"reqd": 1
-		},
-		{
- 			"fieldname": "accumulated_value",
- 			"label": __("Accumulated Values"),
- 			"fieldtype": "Check"
- 		}
+		}
 	],
 	"formatter": function(row, cell, value, columnDef, dataContext, default_formatter) {
 		if (columnDef.df.fieldname=="account") {
